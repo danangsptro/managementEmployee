@@ -1,0 +1,53 @@
+{
+    "posts": [
+      {
+        "username": "admin",
+        "firstName": "tes",
+        "lastName": "ting",
+        "email": "test@gmail.com",
+        "id": "1",
+        "birthDate": "2023-03-10",
+        "BasicSalary": 1000000,
+        "status": "jats",
+        "group": "importir",
+        "description": "2023-02-25T14:35:19.118Z"
+      },
+      {
+        "username": "pegawai",
+        "firstName": "hay",
+        "lastName": "hey",
+        "email": "tw@gmail.com",
+        "id": "2",
+        "birthDate": "2023-02-10",
+        "BasicSalary": 10000,
+        "status": "keren",
+        "group": "sukses",
+        "description": "2023-02-25T14:47:56.069Z"
+      },
+      {
+        "id": "1",
+        "username": "test",
+        "firstName": "dad",
+        "lastName": "testingd",
+        "email": "danang@gmail.om",
+        "birthDate": "2024-03-13",
+        "BasicSalary": 32332,
+        "status": "dawda",
+        "group": "232",
+        "description": "awd"
+      }
+    ],
+    "signup": [
+      {
+        "name": "admin",
+        "email": "admin@gmail.com",
+        "mobile": 81283134032,
+        "password": "12345678",
+        "id": "1"
+      }
+    ],
+    "comments": [],
+    "profile": {
+      "name": "typicode"
+    }
+  }
