@@ -6,17 +6,27 @@ import { AppComponent } from './app.component';
 import { SignUpComponent } from './modules/sign-up/sign-up.component';
 import { LoginComponent } from './modules/login/login.component';
 import { EmployeeComponent } from './modules/employee/employee.component';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { NavComponent } from './components/nav/nav.component';
+import { FilterPipe } from './custom/filter.pipe';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     SignUpComponent,
     LoginComponent,
-    EmployeeComponent
+    EmployeeComponent,
+    NavComponent,
+    FilterPipe
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule,
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
